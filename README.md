@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aryan Srivastava — Portfolio
+
+Personal portfolio and engineering showcase built with Next.js, React, Tailwind CSS, and TypeScript.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **UI Library**: React 19, Tailwind CSS v4, Radix UI / shadcn
+- **Icons**: Lucide React
+- **Language**: TypeScript
+
+## Features
+
+- **Interactive Terminal**: Custom in-browser shell with commands (`whoami`, `projects`, `stack`, `resume`, `contact`) and tab autocompletion.
+- **Dynamic Physics Cursor & Spotlight**: 120fps fluid trailing spring ring, zero-latency center pointer, and ambient spotlight.
+- **Git-Log Experience Timeline**: Interactive career and education timeline modeled after `git log --graph --oneline`.
+- **Theme Support**: Seamless Dark/Light theme switching with persisted preferences and zero layout shift.
+- **Curated Projects**: Detailed performance metrics, architecture breakdowns, and direct live links.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/AryanSri-235/portfolio.git
+cd portfolio
+npm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: aryansri235@gmail.com
+- **LinkedIn**: [aryan-srivastava-68582836b](https://www.linkedin.com/in/aryan-srivastava-68582836b/)
+- **GitHub**: [AryanSri-235](https://github.com/AryanSri-235)
+- **X**: [@AryanSrivacvvx](https://x.com/AryanSrivacvvx)
