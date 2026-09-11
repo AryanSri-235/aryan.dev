@@ -17,6 +17,6 @@ export const siteConfig = {
   x: "https://x.com/AryanSrivacvvx",
   xHandle: "@AryanSrivacvvx",
   resume: "/resume.pdf",
-  url: "https://aryan.dev",
+  url: "https://aryandev-flax.vercel.app",
   year: 2026,
 } as const;

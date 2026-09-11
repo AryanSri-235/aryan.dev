@@ -6,7 +6,6 @@ import { SiteHeader } from "@/components/site-header";
 import { About } from "@/components/sections/about";
 import { Console } from "@/components/sections/console";
 import { Contact } from "@/components/sections/contact";
-import { GithubActivity } from "@/components/sections/github-activity";
 import { Hero, ScrollCue } from "@/components/sections/hero";
 import { Marquee } from "@/components/sections/marquee";
 import { Projects } from "@/components/sections/projects";
@@ -37,7 +36,6 @@ export default function Home() {
           <Timeline />
           <Stack />
           <Console />
-          <GithubActivity />
           <About />
           <Contact />
         </div>

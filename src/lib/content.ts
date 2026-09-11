@@ -87,7 +87,7 @@ export const projects: Project[] = [
       "Sports-tech trial platform for nationwide cricket selections with 68,000+ registrations. As a Web Developer Intern, contributed core modules including automated payment webhooks, role-based CRM workflows, and an anti-fraud auction system.",
     tech: ["Full Stack", "MySQL", "JavaScript", "Razorpay", "Cron", "REST APIs"],
     metrics: [
-      "Engineered Razorpay webhook & cron reconciliation to auto-resolve dropped payments",
+      "Managed and maintained Razorpay webhook & cron reconciliation to auto-resolve dropped payments",
       "Built role-based CRM for single/bulk lead assignment and referral ownership",
       "Developed gated auction module with rate limiting, verification checks, and image compression",
     ],
@@ -111,7 +111,7 @@ export const timeline: TimelineEntry[] = [
     period: "June 2026",
     title: "Web Developer Intern · Champions 11 (C11CL)",
     description:
-      "Contributed to live platform handling 68,000+ trial registrations across 23 states. Integrated Razorpay webhooks & cron reconciliation to auto-resolve failed payments. Developed role-based CRM (single/bulk lead assignment, referral auto-ownership) and a gated auction module with rate limiting and image compression.",
+      "Managed and maintained live platform handling 68,000+ trial registrations across 23 states. Oversaw Razorpay webhooks & cron reconciliation to auto-resolve failed payments. Developed role-based CRM (single/bulk lead assignment, referral auto-ownership) and a gated auction module with rate limiting and image compression.",
     current: true,
     ref: "HEAD -> main",
     refKind: "head",
