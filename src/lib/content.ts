@@ -108,7 +108,7 @@ export type TimelineEntry = {
 
 export const timeline: TimelineEntry[] = [
   {
-    period: "June 2026",
+    period: "June 2026 – Sept 2026",
     title: "Web Developer Intern · Champions 11 (C11CL)",
     description:
       "Managed and maintained live platform handling 68,000+ trial registrations across 23 states. Oversaw Razorpay webhooks & cron reconciliation to auto-resolve failed payments. Developed role-based CRM (single/bulk lead assignment, referral auto-ownership) and a gated auction module with rate limiting and image compression.",
@@ -167,15 +167,15 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Backend & APIs",
-    items: ["Node.js", "Express.js", "REST API Design", "JWT / Session Auth"],
+    items: ["Node.js", "Express.js", "REST API Design", "Webhooks & Cron Jobs", "JWT / Session Auth"],
   },
   {
     label: "Databases & ORM",
-    items: ["PostgreSQL", "Prisma ORM", "Drizzle ORM", "MongoDB", "MySQL"],
+    items: ["PostgreSQL", "Prisma ORM", "Drizzle ORM", "MongoDB", "Mongoose", "MySQL"],
   },
   {
     label: "Cloud, Tools & Payments",
-    items: ["Vercel", "Git & GitHub", "GitHub Actions CI/CD", "Razorpay", "Postman", "Firebase"],
+    items: ["Vercel", "Cloudflare (CDN / DNS)", "Git & GitHub", "GitHub Actions CI/CD", "Razorpay", "Postman", "Firebase"],
   },
   {
     label: "Problem Solving & Core",

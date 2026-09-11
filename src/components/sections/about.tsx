@@ -15,23 +15,6 @@ export function About() {
               {paragraph}
             </p>
           ))}
-
-          <div className="pt-4">
-            <span className="text-foreground mb-3 block font-mono text-xs font-semibold tracking-wider uppercase">
-              What excites me &amp; what I want to build:
-            </span>
-            <div className="flex flex-wrap gap-2">
-              {focusAreas.map((area) => (
-                <span
-                  key={area}
-                  className="border-border bg-card text-foreground rounded-lg border px-3 py-1.5 font-mono text-xs shadow-xs"
-                >
-                  <span className="text-brand mr-1.5">▸</span>
-                  {area}
-                </span>
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -52,6 +35,23 @@ export function About() {
               </a>
             </Card>
           ))}
+
+          <div className="pt-3">
+            <span className="text-foreground mb-3 block font-mono text-xs font-semibold tracking-wider uppercase">
+              What excites me &amp; what I want to build:
+            </span>
+            <div className="flex flex-wrap gap-2">
+              {focusAreas.map((area) => (
+                <span
+                  key={area}
+                  className="border-border bg-card text-foreground rounded-lg border px-3 py-1.5 font-mono text-xs shadow-xs"
+                >
+                  <span className="text-brand mr-1.5">▸</span>
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
