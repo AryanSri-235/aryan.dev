@@ -63,9 +63,8 @@ export const projects: Project[] = [
       "Sub-100ms database queries via indexed Prisma models",
       "Secure JWT auth with protected API routes",
     ],
-    href: "https://gravity-eight-green.vercel.app/",
     github: "https://github.com/AryanSri-235/Splitease",
-    status: "live",
+    status: "open-source",
   },
   {
     title: "NPS Insurance",
