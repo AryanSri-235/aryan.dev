@@ -24,9 +24,8 @@ function CenteredHero() {
       <p className="text-muted-foreground mt-[22px] font-mono text-sm">
         Full Stack Developer 
       </p>
-      <p className="text-muted-foreground mt-[18px] max-w-[580px] text-[17px] leading-[1.6] text-pretty">
-        I build high-scale, production-ready web platforms — authentication, APIs,
-        database architecture and responsive UI. Handled 68,000+ users in live production.
+      <p className="text-muted-foreground mt-[18px] max-w-[540px] text-[17px] leading-[1.6] text-pretty">
+        Full Stack Developer building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users.
       </p>
       <div className="mt-[30px] flex flex-wrap justify-center gap-2.5">
         <Button asChild variant="brand" size="hero">
@@ -78,10 +77,8 @@ function SplitHero() {
         <h1 className="mt-5 text-[clamp(44px,6vw,76px)] leading-[0.96] font-semibold tracking-[-0.04em]">
           <HeroName />
         </h1>
-        <p className="text-muted-foreground mt-[18px] max-w-[48ch] text-lg leading-[1.6] text-pretty">
-          Full Stack Developer building scalable, user-centric web applications
-          with Next.js, Node, TypeScript and PostgreSQL. Experienced in live platforms
-          handling 68,000+ users. 
+        <p className="text-muted-foreground mt-[18px] max-w-[48ch] text-base leading-[1.6] text-pretty">
+          Full Stack Developer building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users.
         </p>
         <div className="mt-7 flex flex-wrap gap-2.5">
           <Button asChild variant="brand" size="hero">

@@ -6,7 +6,7 @@ import { cn, focusRing } from "@/lib/utils";
 export function About() {
   return (
     <section id="about" className="pt-24" data-reveal="">
-      <SectionHeading eyebrow="About" title="Who I Am & What I Do" />
+      <SectionHeading eyebrow="About" title="Background" />
 
       <div className="mt-8 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] items-start gap-12">
         <div className="space-y-4 font-normal text-[16px] leading-[1.75] text-muted-foreground">
@@ -38,7 +38,7 @@ export function About() {
 
           <div className="pt-3">
             <span className="text-foreground mb-3 block font-mono text-xs font-semibold tracking-wider uppercase">
-              What excites me &amp; what I want to build:
+              Focus Areas:
             </span>
             <div className="flex flex-wrap gap-2">
               {focusAreas.map((area) => (

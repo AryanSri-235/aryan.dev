@@ -76,7 +76,6 @@ export async function GithubActivity() {
         {calendar ? (
           <Heatmap calendar={calendar} />
         ) : (
-          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={`https://ghchart.rshah.org/4d9a4d/${siteConfig.githubUser}`}
             alt={`${siteConfig.githubUser} GitHub contribution chart`}

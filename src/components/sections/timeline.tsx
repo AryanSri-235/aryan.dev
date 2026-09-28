@@ -10,7 +10,7 @@ const REF_TONE: Record<TimelineEntry["refKind"], string> = {
 export function Timeline() {
   return (
     <section id="work" className="pt-24" data-reveal="">
-      <SectionHeading eyebrow="Timeline" title="Experience & education" />
+      <SectionHeading eyebrow="Timeline" title="Experience" />
 
       <div className="border-border bg-card shadow-card mt-7 overflow-auto rounded-[14px] border p-6 font-mono text-[13px] leading-[1.85]">
         <div className="text-muted-foreground mb-4">

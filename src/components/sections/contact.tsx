@@ -24,10 +24,10 @@ export function Contact() {
           get in touch
         </div>
         <h2 className="text-[clamp(30px,4.4vw,46px)] leading-[normal] font-semibold tracking-[-0.035em] text-balance">
-          Hey, you scrolled this far — let&apos;s talk.
+          Let&apos;s build together.
         </h2>
-        <p className="text-muted-foreground mx-auto mt-3.5 max-w-[520px] text-base leading-[1.6]">
-          Have an engineering role, an ambitious build in mind, or just want to connect? Drop me an email directly or reach out on LinkedIn / X.
+        <p className="text-muted-foreground mx-auto mt-3 max-w-[460px] text-base leading-[1.6]">
+          Open to full-stack engineering roles, high-impact projects, and technical discussions.
         </p>
 
         <div className="mt-7 flex flex-wrap items-center justify-center gap-3">

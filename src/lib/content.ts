@@ -56,12 +56,11 @@ export const projects: Project[] = [
   {
     title: "Splitease",
     description:
-      "Group expense splitting web application featuring automated debt settlement algorithms, real-time balance calculations, and secure JWT authentication.",
+      "Group expense splitting app with debt simplification algorithms and secure JWT auth.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
     metrics: [
-      "Real-time expense settlement and graph simplification",
-      "Sub-100ms database queries via indexed Prisma models",
-      "Secure JWT auth with protected API routes",
+      "Sub-100ms queries via indexed Prisma models",
+      "Automated debt simplification algorithm",
     ],
     github: "https://github.com/AryanSri-235/Splitease",
     status: "open-source",
@@ -69,12 +68,11 @@ export const projects: Project[] = [
   {
     title: "NPS Insurance",
     description:
-      "Enterprise multi-provider insurance aggregator built as a freelance project, spanning 13 product lines and 31 IRDAI-registered insurers with dynamic SEO and a 4-role admin dashboard.",
+      "Multi-provider insurance aggregator spanning 13 product lines and 31 IRDAI insurers.",
     tech: ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "ISR"],
     metrics: [
-      "13 product lines & 31 IRDAI-registered insurance providers",
-      "App Router ISR caching for high-speed dynamic SEO pages",
-      "4-role RBAC admin dashboard for policy and lead management",
+      "App Router ISR caching for fast dynamic SEO pages",
+      "4-role RBAC dashboard for policies and leads",
     ],
     href: "https://npsinsurance.in/",
     status: "freelance",
@@ -83,12 +81,11 @@ export const projects: Project[] = [
   {
     title: "Champions 11 (C11CL)",
     description:
-      "Sports-tech trial platform for nationwide cricket selections with 68,000+ registrations. As a Web Developer Intern, contributed core modules including automated payment webhooks, role-based CRM workflows, and an anti-fraud auction system.",
+      "Sports-tech trial platform serving 68,000+ registrations across 23 states.",
     tech: ["Full Stack", "MySQL", "JavaScript", "Razorpay", "Cron", "REST APIs"],
     metrics: [
-      "Managed and maintained Razorpay webhook & cron reconciliation to auto-resolve dropped payments",
-      "Built role-based CRM for single/bulk lead assignment and referral ownership",
-      "Developed gated auction module with rate limiting, verification checks, and image compression",
+      "Razorpay webhook & cron pipeline auto-resolving dropped payments",
+      "Role-based CRM with bulk lead routing & anti-fraud auction",
     ],
     href: "https://c11cl.com/",
     status: "internship",
@@ -110,7 +107,7 @@ export const timeline: TimelineEntry[] = [
     period: "June 2026 – Sept 2026",
     title: "Web Developer Intern · Champions 11 (C11CL)",
     description:
-      "Managed and maintained live platform handling 68,000+ trial registrations across 23 states. Oversaw Razorpay webhooks & cron reconciliation to auto-resolve failed payments. Developed role-based CRM (single/bulk lead assignment, referral auto-ownership) and a gated auction module with rate limiting and image compression.",
+      "Maintained production platform for 68k+ users. Built automated Razorpay reconciliation, role-based CRM, and gated auction engine.",
     current: true,
     ref: "HEAD -> main",
     refKind: "head",
@@ -119,7 +116,7 @@ export const timeline: TimelineEntry[] = [
     period: "July 2026",
     title: "Freelance Web Developer · NPS Insurance",
     description:
-      "Designed and delivered a multi-provider insurance aggregator covering 13 product lines and 31 IRDAI-registered insurers. Built dynamic Next.js App Router pages with ISR caching and SEO, backed by PostgreSQL and Prisma with a 4-role data-scoped admin panel.",
+      "Shipped aggregator for 13 product lines & 31 IRDAI insurers. Built ISR-cached Next.js pages and 4-role RBAC admin panel.",
     ref: "origin/freelance",
     refKind: "remote",
   },
@@ -127,7 +124,7 @@ export const timeline: TimelineEntry[] = [
     period: "2024 – 2028",
     title: "NIT Jalandhar · B.Tech in ICE",
     description:
-      "Bachelor of Technology at National Institute of Technology, Jalandhar. Strong foundation in Data Structures & Algorithms, Operating Systems, Database Management Systems, and Object-Oriented Design.",
+      "B.Tech undergraduate. Focus on Data Structures & Algorithms, OS, DBMS, and System Design.",
     ref: "tag: b.tech",
     refKind: "tag",
   },
@@ -135,7 +132,7 @@ export const timeline: TimelineEntry[] = [
     period: "Next",
     title: "Next Horizon · High-Impact Engineering Roles",
     description:
-      "Seeking ambitious engineering teams building high-scale distributed platforms, resilient backend services, and modern web applications with applied AI.",
+      "Seeking full-stack and backend engineering roles building scalable distributed systems.",
     ref: "origin/next",
     refKind: "remote",
   },
@@ -183,9 +180,8 @@ export const stack: StackGroup[] = [
 ];
 
 export const aboutParagraphs = [
-  "Hey! I'm Aryan — a full-stack developer and undergraduate at NIT Jalandhar. My curiosity with computers started early: the idea that a couple of keystrokes and clear logic could be translated into software used by thousands of people still fascinates me every single day.",
-  "As an engineer, I care deeply about the craft. I believe great software sits at the intersection of robust engineering and thoughtful user experience. I don't just like writing code to get things done — I genuinely enjoy understanding how systems work beneath the hood, whether that's tuning database queries, architecting resilient backend services, or refining the small details that make an interface feel responsive and natural.",
-  "What I want to do: I'm looking to join ambitious, high-standards engineering teams building impactful products. I'm eager to solve tough challenges in distributed web systems, explore applied AI, and learn alongside seasoned mentors while building reliable tools that make people's lives easier.",
+  "Full-stack developer and undergraduate at NIT Jalandhar. Focused on building reliable backend architectures, performant APIs, and clean web interfaces.",
+  "Experienced in shipping production systems at scale — from managing platforms with 68k+ users to architecting database schemas. Seeking ambitious engineering teams.",
 ];
 
 export const aboutBio = aboutParagraphs.join(" ");

@@ -106,7 +106,7 @@ export function Projects() {
     <section id="projects" className="pt-24" data-reveal="">
       <SectionHeading
         eyebrow="Featured"
-        title="Projects & Systems"
+        title="Projects"
         aside={
           <a
             href={siteConfig.github}
