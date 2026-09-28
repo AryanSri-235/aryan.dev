@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 
 import { Moon, Sun } from "lucide-react";
 
@@ -36,9 +37,13 @@ export function SiteHeader() {
               focusRing
             )}
           >
-            <span className="bg-brand text-brand-foreground grid size-[22px] place-items-center rounded-md text-[11px] font-bold">
-              A
-            </span>
+            <Image
+              src="/icons/icon-192.png"
+              alt="aryan.dev logo"
+              width={22}
+              height={22}
+              className="size-[22px] rounded-[5px] object-contain border border-border/60"
+            />
             aryan<span className="text-muted-foreground">.dev</span>
           </a>
 
