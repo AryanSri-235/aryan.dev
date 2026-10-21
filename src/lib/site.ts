@@ -13,7 +13,7 @@ export const siteConfig = {
   githubUser: "AryanSri-235",
   github: "https://github.com/AryanSri-235/",
   linkedin: "https://www.linkedin.com/in/aryan-srivastava-68582836b/",
-  linkedinHandle: "aryan-srivastava",
+  linkedinHandle: "aryan-srivastava-68582836b",
   x: "https://x.com/AryanSrivacvvx",
   xHandle: "@AryanSrivacvvx",
   resume: "/resume.pdf",
