@@ -25,7 +25,7 @@ function CenteredHero() {
         Full Stack Developer 
       </p>
       <p className="text-muted-foreground mt-[18px] max-w-[540px] text-[17px] leading-[1.6] text-pretty">
-        Full Stack Developer building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users.
+        Building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users in production.
       </p>
       <div className="mt-[30px] flex flex-wrap justify-center gap-2.5">
         <Button asChild variant="brand" size="hero">
@@ -78,7 +78,7 @@ function SplitHero() {
           <HeroName />
         </h1>
         <p className="text-muted-foreground mt-[18px] max-w-[48ch] text-base leading-[1.6] text-pretty">
-          Full Stack Developer building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users.
+          Building high-scale web platforms with Next.js, Node.js, and PostgreSQL. Handled 68k+ users in production.
         </p>
         <div className="mt-7 flex flex-wrap gap-2.5">
           <Button asChild variant="brand" size="hero">

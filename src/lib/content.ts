@@ -56,23 +56,35 @@ export const projects: Project[] = [
   {
     title: "Splitease",
     description:
-      "Group expense splitting app with debt simplification algorithms and secure JWT auth.",
+      "Group expense splitting app with debt settlement and JWT auth.",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
     metrics: [
-      "Sub-100ms queries via indexed Prisma models",
-      "Automated debt simplification algorithm",
+      "Sub-100ms queries via indexed Prisma",
+      "Graph debt settlement algorithm",
     ],
     github: "https://github.com/AryanSri-235/Splitease",
     status: "open-source",
   },
   {
+    title: "PulseStream",
+    description:
+      "Real-time event telemetry handling 500 to 10k+ events/sec.",
+    tech: ["Next.js 16", "TypeScript", "Kafka", "Redis", "Tailwind CSS"],
+    metrics: [
+      "O(1) memory ring buffer at 60 FPS",
+      "Kafka lag & p95 latency monitoring",
+    ],
+    github: "https://github.com/AryanSri-235",
+    status: "open-source",
+  },
+  {
     title: "NPS Insurance",
     description:
-      "Multi-provider insurance aggregator spanning 13 product lines and 31 IRDAI insurers.",
+      "Aggregator for 13 product lines & 31 IRDAI insurers.",
     tech: ["Next.js 14", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "ISR"],
     metrics: [
-      "App Router ISR caching for fast dynamic SEO pages",
-      "4-role RBAC dashboard for policies and leads",
+      "Next.js ISR caching for fast SEO",
+      "4-role RBAC policy dashboard",
     ],
     href: "https://npsinsurance.in/",
     status: "freelance",
@@ -81,11 +93,11 @@ export const projects: Project[] = [
   {
     title: "Champions 11 (C11CL)",
     description:
-      "Sports-tech trial platform serving 68,000+ registrations across 23 states.",
+      "Sports-tech platform serving 68k+ users across 23 states.",
     tech: ["Full Stack", "MySQL", "JavaScript", "Razorpay", "Cron", "REST APIs"],
     metrics: [
-      "Razorpay webhook & cron pipeline auto-resolving dropped payments",
-      "Role-based CRM with bulk lead routing & anti-fraud auction",
+      "Automated Razorpay webhook & cron reconciliation",
+      "Role-based CRM & anti-fraud auction",
     ],
     href: "https://c11cl.com/",
     status: "internship",
@@ -105,34 +117,34 @@ export type TimelineEntry = {
 export const timeline: TimelineEntry[] = [
   {
     period: "June 2026 – Sept 2026",
-    title: "Web Developer Intern · Champions 11 (C11CL)",
+    title: "Web Developer Intern · Champions 11",
     description:
-      "Maintained production platform for 68k+ users. Built automated Razorpay reconciliation, role-based CRM, and gated auction engine.",
+      "Maintained platform for 68k+ users. Built payment reconciliation, CRM, and gated auctions.",
     current: true,
     ref: "HEAD -> main",
     refKind: "head",
   },
   {
     period: "July 2026",
-    title: "Freelance Web Developer · NPS Insurance",
+    title: "Freelance Developer · NPS Insurance",
     description:
-      "Shipped aggregator for 13 product lines & 31 IRDAI insurers. Built ISR-cached Next.js pages and 4-role RBAC admin panel.",
+      "Shipped aggregator for 13 product lines & 31 insurers with ISR and 4-role RBAC.",
     ref: "origin/freelance",
     refKind: "remote",
   },
   {
     period: "2024 – 2028",
-    title: "NIT Jalandhar · B.Tech in ICE",
+    title: "NIT Jalandhar · B.Tech ICE",
     description:
-      "B.Tech undergraduate. Focus on Data Structures & Algorithms, OS, DBMS, and System Design.",
+      "Undergraduate coursework in DSA, OS, DBMS, and System Design.",
     ref: "tag: b.tech",
     refKind: "tag",
   },
   {
     period: "Next",
-    title: "Next Horizon · High-Impact Engineering Roles",
+    title: "Next Horizon · Engineering Roles",
     description:
-      "Seeking full-stack and backend engineering roles building scalable distributed systems.",
+      "Seeking full-stack and backend roles building scalable systems.",
     ref: "origin/next",
     refKind: "remote",
   },
@@ -159,29 +171,25 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Frontend",
-    items: ["Next.js (App Router)", "React.js", "Tailwind CSS", "HTML5 / CSS3"],
+    items: ["Next.js", "React", "Tailwind CSS"],
   },
   {
-    label: "Backend & APIs",
-    items: ["Node.js", "Express.js", "REST API Design", "Webhooks & Cron Jobs", "JWT / Session Auth"],
+    label: "Backend & Systems",
+    items: ["Node.js", "Express.js", "REST APIs", "Kafka", "Redis"],
   },
   {
-    label: "Databases & ORM",
-    items: ["PostgreSQL", "Prisma ORM", "Drizzle ORM", "MongoDB", "Mongoose", "MySQL"],
+    label: "Databases & Tools",
+    items: ["PostgreSQL", "Prisma", "Drizzle", "MongoDB", "Vercel", "Git"],
   },
   {
-    label: "Cloud, Tools & Payments",
-    items: ["Vercel", "Cloudflare (CDN / DNS)", "Git & GitHub", "GitHub Actions CI/CD", "Razorpay", "Postman", "Firebase"],
-  },
-  {
-    label: "Problem Solving & Core",
-    items: ["Data Structures & Algorithms", "System & API Design", "OOP", "Database Design"],
+    label: "Core",
+    items: ["DSA", "System Design", "OOP", "DBMS"],
   },
 ];
 
 export const aboutParagraphs = [
-  "Full-stack developer and undergraduate at NIT Jalandhar. Focused on building reliable backend architectures, performant APIs, and clean web interfaces.",
-  "Experienced in shipping production systems at scale — from managing platforms with 68k+ users to architecting database schemas. Seeking ambitious engineering teams.",
+  "Full-stack engineer at NIT Jalandhar building resilient backend systems, high-throughput APIs, and clean web apps.",
+  "Experienced in production platforms serving 68k+ users. Seeking ambitious engineering teams.",
 ];
 
 export const aboutBio = aboutParagraphs.join(" ");
